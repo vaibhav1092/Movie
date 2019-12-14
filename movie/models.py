@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Movie(models.Model):
-    Mname=models.CharField(max_length=100)
+    Mname=models.CharField(max_length=120)
     Mrdate = models.DateField()
     Mlang = models.CharField(max_length=100)
 
